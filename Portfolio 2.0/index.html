@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- FONT AWESOME -->
+    <script src="https://kit.fontawesome.com/6d20788c52.js" crossorigin="anonymous"></script>
+
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+
+    <script src="script/box.js"></script>
+    <title>Sharat | Portfolio</title>
+</head>
+
+<body>
+    <div id="nav">
+        <ul>
+            <li id="first"><a href="index.html">Apoorv Sharat</a></li>
+            <li class="nav_menu li_menu" id="nav_first"><a href="index.html">Home</a></li>
+            <li class="nav_menu li_menu"><a href="#about">About</a></li>
+            <li class="nav_menu li_menu"><a href="#services">Services</a></li>
+            <li class="nav_menu li_menu"><a href="#skills">Skills</a></li>
+            <li class="nav_menu li_menu"><a href="#works">Works</a></li>
+            <li class="nav_menu li_menu"><a href="#contact">Contact</a></li>
+            <li class="nav_menu" id="social_first"><a href="https://www.github.com/sharat0"><i
+                        class="fa-brands fa-github"></i> Github</a></li>
+            <li class="nav_menu"><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+        </ul>
+    </div>
+    <!-- <div id="particles-js"> -->
+    <div id="home" class="grid">
+        <div class="left ">
+            <span class="box" data-aos="fade-up">
+                Full-Stack Developer
+            </span>
+            <span id="home_head" data-aos="fade-up" data-aos-delay="200">
+                Talk is cheap. Show me the code
+            </span>
+            <span id="talk" data-aos="fade-up" data-aos-delay="400"><a href="mailto:apoorv.sharat0@gmail.com">Let's
+                    discuss project</a></a></span>
+        </div>
+        <div class="right" data-aos="fade-up">
+            <img src="img/vector.png" alt="image" data-aos="fade-up" data-aos-delay="200">
+        </div>
+    </div>
+    </div>
+    <div id="about" class="about_grid">
+        <div class="left" data-aos="fade-up" data-aos-delay="100">
+            <img src="img/me1.jfif" alt="image">
+
+        </div>
+        <div class="right">
+            <span class="head" data-aos="fade-up">About Me</span>
+            <span id="hi" data-aos="fade-up" data-aos-delay="250">Hello! I'm Apoorv Sharat! </span>
+            <p data-aos="fade-up" data-aos-delay="400">
+                Born in a city named Bhagalpur in
+                Bihar. I'm a student as well as a freelancer. I like learning new skills and implementing them. I've
+                passed
+                my
+                my high school from St. Joseph's School, Bhagalpur and currently a BCA student at Kristu Jayanti
+                College,
+                Bangalore. I'm passionate about helping my clients bringing their brands to life and telling their story
+                visually. My intention is to have my own startup and capture a brand's personality by developing
+                comprehensive
+                and compelling brand's identities and designs.
+            </p>
+            <div id="quotebox" class="quote" data-aos="fade-up" data-aos-delay="500">
+                <span class="quote" data-aos="fade-up" data-aos-delay="500">Doing what is easy is just a waste of time.
+                    Doing tough things is what builds you.</span>
+                <span class="sign" data-aos="fade-up" data-aos-delay="550">-Sharat</span>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <span class="head">Services</span>
+        <div class="sspan">
+            <div class="sbox" onmousemove="showCoords1(event)" onmouseleave="clearshadow()" id="box1"
+                data-aos="fade-up">
+                <span class="subhead">UI-UX</span>
+                <p>Any app wo website needs to be in a perfect design with proper color scheme to be interractive and
+                    user friendly. Designing such websites ais my hobby.</p>
+            </div>
+            <div class="sbox" onmousemove="showCoords2(event)" onmouseleave="clearshadow()" id="box2" data-aos="fade-up"
+                data-aos-delay="100">
+                <span class="subhead">Web development</span>
+                <p>Developing a user friendly website might be a tough job for some people but I like spending time in
+                    web developement. I develope full-stack websites according to client's need.</p>
+
+            </div>
+            <div class="sbox" onmousemove="showCoords3(event)" onmouseleave="clearshadow()" id="box3" data-aos="fade-up"
+                data-aos-delay="200">
+                <span class="subhead">Android Developement</span>
+                <p>Android devices are the most widely used device all over the world. Developing an android app and
+                    making it live on google play store is the best thing one can do to target their customers.</p>
+
+            </div>
+        </div>
+
+        <div class="sspan">
+            <div class="sbox" onmousemove="showCoords4(event)" onmouseleave="clearshadow()" id="box6" data-aos="fade-up"
+                data-aos-delay="400">
+                <span class="subhead">Windows Application</span>
+                <p>In this modern world of technologies, having a laptop or a computer for your business is must. You
+                    invest your time in your business, we are here to help you with coding your application.</p>
+
+            </div>
+            <div class="sbox" onmousemove="showCoords5(event)" onmouseleave="clearshadow()" id="box4" data-aos="fade-up"
+                data-aos-delay="250">
+                <span class="subhead">Security</span>
+                <p>Even after an application or website is developed and deployed, it needs to be secure in order to be
+                    trusted by the customers and safe from hackers. A small mistake can result in data breach.</p>
+
+            </div>
+            <div class="sbox" onmousemove="showCoords6(event)" onmouseleave="clearshadow()" id="box5" data-aos="fade-up"
+                data-aos-delay="300">
+                <span class="subhead">SEO</span>
+                <p>Ranking your website on top of google might be a big deal for you but not for me. I've been working
+                    on SEO since past 5 years.</p>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div id="left">
+            <span class="head" data-aos="fade-up">Skills</span>
+            <p data-aos="fade-up" data-aos-delay="200">Since beginning my journey as a freelance developer nearly 5
+                years ago, I've done remote work for
+                agencies, consulted for startups, and collaborated with talented people to create web products for
+                both business and consumer use. <br><br>
+                I create successful responsive websites that are fast, easy to use, and built with best practices.
+                The main area of my expertise is front-end development, HTML, CSS, JS, building small and medium web
+                apps, custom plugins, features, animations, and coding interactive layouts. <br><br>
+                I also have full-stack developer experience with popular open-source CMS like (WordPress, Drupal,
+                Magento, Keystone.js and others) . <br>
+            <p data-aos="fade-up" data-aos-delay="350">Visit my <a href="https://www.linkedin.com/in/apoorv-sharat/"
+                    target="_blank">LinkedIn </a>profile
+                for more details or just <a href="https://jacekjeznach.com/contact">contact </a>me.</p>
+        </div>
+
+        <div id="right">
+            <span class="progress_head" data-aos="fade-up">Web Development</span>
+            <div class="bar" data-aos="fade-up" data-aos-delay="200">
+                <span id="web_start" class="inline_elements"></span>
+                <span id="web_end" class="inline_elements"></span>
+            </div>
+
+
+
+            <span class="progress_head" data-aos="fade-up" data-aos-delay="350">Cyber Security</span>
+            <div class="bar" data-aos="fade-up" data-aos-delay="450">
+                <span id="sec_start" class="inline_elements"></span>
+                <span id="sec_end" class="inline_elements"></span>
+            </div>
+
+            <span class="progress_head" data-aos="fade-up" data-aos-delay="500">Android Developement</span>
+            <div class="bar" data-aos="fade-up" data-aos-delay="600">
+                <span id="android_start" class="inline_elements"></span>
+                <span id="android_end" class="inline_elements"></span>
+            </div>
+
+            <span class="progress_head" data-aos="fade-up" data-aos-delay="650">Windows Application</span>
+            <div class="bar" data-aos="fade-up" data-aos-delay="700">
+                <span id="windows_start" class="inline_elements"></span>
+                <span id="windows_end" class="inline_elements"></span>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="works">
+        <span class="head" data-aos="fade-up">My Recent Projects</span>
+        <span class="work_subhead" data-aos="fade-up" data-aos-delay="100">Here is my past few projects</span>
+        <div class="flex">
+            <div class="work" id="logistics" data-aos="fade-up" data-aos-delay="200">
+                <div class="data">
+                    <h3>Logistics Management System</h3>
+                    <p>Windows Application made using VB.net for logistics services for admin.</p>
+                    <span class="data_btn"><a href="https://github.com/sharat0/Logistics-Maagemet-System"
+                            target="_blank" rel="noopener noreferrer"> Github</a></span>
+                </div>
+            </div>
+
+            <div class="work" id="admission" data-aos="fade-up" data-aos-delay="300">
+                <div class="data">
+                    <h3>Admission System</h3>
+                    <p>College admission system with virtual ID card fascility built using ASP.net (Full-Stack)</p>
+                    <span class="data_btn"><a href="https://github.com/sharat0/Jayantian-World" target="_blank"
+                            rel="noopener noreferrer">Github</a></span>
+                </div>
+            </div>
+
+            <div class="work" id="living_spaces" data-aos="fade-up" data-aos-delay="250">
+                <div class="data">
+                    <h3>Living Spaces</h3>
+                    <p>A dummy website for hostel/ PG/ Flat owners to get their business online.</p>
+                    <span class="data_btn"><a href="http://www.livingspace.sharat.tech/" target="_blank"
+                            rel="noopener noreferrer">Visit</a></span>
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="flex">
+            <div class="work" id="login_template" data-aos="fade-up" data-aos-delay="250">
+                <div class="data">
+                    <h3>Login Page Template</h3>
+                    <p>Login and signup page template (frontend only).</p>
+                    <span class="data_btn"><a href="http://www.sharat.tech/projects/login-template" target="_blank"
+                            rel="noopener noreferrer">Visit</a></span>
+                </div>
+            </div>
+
+            <div class="work" id="age_of_internet" data-aos="fade-up" data-aos-delay="300">
+                <div class="data">
+                    <h3>Age of Internet</h3>
+                    <p>A website to see age and details of internet and some other popular websites.</p>
+                    <span class="data_btn"><a href="http://www.sharat.tech/projects/age-of-internet" target="_blank"
+                            rel="noopener noreferrer">Visit</a></span>
+                </div>
+            </div>
+
+            <div class="work" id="comming_soon" data-aos="fade-up" data-aos-delay="350">
+                <div class="data">
+                    <h3>Comming Soon Template</h3>
+                    <p>A static minimal UI design for website comming soon page.</p>
+                    <span class="data_btn"><a href="http://www.sharat.tech/projects/comming-soon" target="_blank"
+                            rel="noopener noreferrer">Visit</a></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div id="pop" data-aos="flip-down" data-aos-delay="100" data-aos-duration="600">
+            <div id="h1">
+                <i class="fas fa-concierge-bell"></i> Need help? +91 7483394260
+            </div>
+            <div id="h2">
+                If you hate forms (and who doesn’t?) or if you want to talk to a human being,
+                then
+                you ping me on whatsapp on
+                the following number.
+            </div>
+        </div>
+        <!-- <div class="flex">
+
+            <div id="contact_text">
+
+            </div>
+            <div id="form">
+                <form action="" method="get">
+                    <div class="is_half">
+                        <span class="label half_element">Name</span>
+                        <span class="label half_element">Email</span>
+                    </div>
+                    <div class="is_half">
+                        <input type="text" name="name" id="name" class="half_element" placeholder="Name">
+                        <input type="email" name="mail" id="mail" class="half_element" placeholder="Email"> <br>
+                    </div>
+
+                    <div class="is_half">
+                        <label for="type" class="label half_element">Type of Project</label>
+                        <label for="type" class="label half_element">Budget</label>
+                    </div>
+
+                    <div class="is_half"> -->
+                        <!-- TYPE OF PROJECT -->
+
+                        <!-- <select name="type" id="type" class="half_element">
+                            <option value="security">Cyber Security</option>
+                            <option value="web">Web Developement</option>
+                            <option value="windows">Windows Developement</option>
+                            <option value="android">Android Developement</option>
+                            <option value="seo">SEO</option>
+                            <option value="ui">UI-UX Design</option>
+                        </select> -->
+
+                        <!-- BUDGET -->
+
+                        <!-- <select name="type" id="type" class="half_element">
+                            <option value="low">$250-$500</option>
+                            <option value="avg">$500-$5000</option>
+                            <option value="high">$5000+</option>
+                        </select>
+
+                    </div>
+                    <br>
+                    <span class="label descr">Project Description</span> <br>
+                    <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Project Description"></textarea>
+                </form>
+            </div>
+        </div> -->
+        <div id="box">
+            <div class="b" id="add">
+                <h1>Apoorv Sharat</h1>
+                <h2>Full-Stack Developer</h2>
+            </div>
+
+            <div class="b" id="con">
+                <h3>Contact</h3>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> <a
+                            href="mailto:apoorv.sharat0@gmail.com">apoorv.sharat0@gmail.com</a></li>
+                    <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/+917483394260">+91 7483394260</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <p>Copyright &copy; <span id="year"></span><a href="https://sharat.tech">Sharat</a> | Made with Love</p>
+    </div>
+    </div>
+</body>
+<script src="particles.js"></script>
+<script src="app.js"></script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+
+    AOS.init({
+        once: true
+    });
+
+
+</script>
+
+</html>
