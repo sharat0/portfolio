@@ -1,13 +1,18 @@
 <?php
+use Mailtrap\Config;
+use Mailtrap\Helper\ResponseHelper;
+use Mailtrap\MailtrapClient;
+use Symfony\Component\Mime\Address;
+use Symfony\Component\Mime\Email;
 function sendMail($senderName, $subject, $sendTo, $receiver, $textMail, $html)
 {
     require '../vendor/autoload.php';
 
-    $apiKey = '7d51e79a1b7b9ce8fd65b2153a78db5e';
+    $apiKey = '484e6cff68db0e9573a14fbe6882752a';
     $mailtrap = new MailtrapClient(new Config($apiKey));
 
     $email = (new Email())
-        ->from(new Address('mailtrap@demomailtrap.com', $senderName))
+        ->from(new Address('portfolio@festivelearn.com', $senderName))
         ->to(new Address($sendTo, $receiver))
         ->priority(Email::PRIORITY_HIGH)
         ->subject($subject)
