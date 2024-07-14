@@ -12100,9 +12100,9 @@ pre .code {
 }
 
 .header .header-content .header-title .up {
-  font-size: calc(30px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
+  font-size: calc(25px + (60 - 30) * ((100vw - 300px) / (1300 - 300)));
   font-weight: 500;
-  color: #fff;
+  color: rgb(94 234 212);
   margin-bottom: 5px;
   position: relative;
   display: block;
@@ -12199,6 +12199,11 @@ pre .code {
   -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
+}
+.about-caption p{
+  font-size: 18px;
+  line-height: 35px;
+  font-weight: 300;
 }
 
 @media (max-width: 767.98px) {
