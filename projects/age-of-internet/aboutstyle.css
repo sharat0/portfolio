@@ -1,0 +1,340 @@
+*{
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+html{
+    scroll-behavior: smooth;
+}
+.navbar{
+    display: flex;
+    background: transparent;
+    background-color: #1b191c;
+    width: 100%;
+    margin-bottom: 0px;
+    height: 70px;
+    box-shadow: 2px 5px #000000;
+}
+#logo{
+    margin-left: 100px;
+    margin-top: 0px;
+    box-shadow: 2px 2px 2px white;
+}
+#home{
+    margin-left: 330px;
+}
+#about{
+    border-bottom: 2px solid #D2D1D2;
+    /* margin-left: 330px; */
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #cafffb;
+    font-size: 20px;
+    transition:all 0.8s ease;
+}
+.nav ul li a:hover{
+    border-bottom: 2px solid #D2D1D2;
+}
+.a{
+    width: 50%;
+}
+.above{
+    background-image: linear-gradient(to right, #151515, #322f2f);
+    color: blanchedalmond;
+    height: 100%;
+    display: flex;
+}
+h1{
+    margin-top: 0px;
+}
+.a, .b{
+    display: inline-block;
+    width: 45%;
+    margin-left: 4%;
+    margin-top: 30px;
+}
+.a p{
+    padding-left: 20px;
+    font-size: 18px;
+}
+.b{
+    background-image: url("/img/clock2.png");
+    background-size: 37%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main{
+    background-color: rgb(21, 21, 21);
+    color: blanchedalmond;
+    height: 100%;
+    display: flex;
+}
+.m1,.m2{
+    display: inline-block;
+    width: 45%;
+}
+.mb{
+    display: none;
+    text-decoration: underline white;
+}
+h1{
+    text-align: center;
+    /* border-bottom: 2px solid white; */
+}
+.m2 h3, .m2 h2{
+    display: inline-block;
+    margin-bottom: 0px;
+}
+.m2 h1{
+    text-align: start;
+    margin-bottom: 0px;
+    text-decoration: underline white;
+}
+.services{
+    background-color: rgb(26, 25, 25);
+    color: blanchedalmond;
+    justify-content: center;
+}
+.services h1{
+    text-decoration: underline white;
+    padding-top: 15px;
+}
+.s1{
+    width: 30%;
+    height: 185px;
+    display: inline-grid;
+    /* border: 2px solid red; */
+    background-color: #0f0f0f;
+    padding: 2px 15px 2px 15px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    transition: all 1s ease;
+    border-radius: 15px;
+}
+.s1 h2{
+    /* justify-content: center; */
+    text-align: center;
+    color: white;
+}
+i{
+    color: rgb(255, 208, 0) ;
+}
+.x1:hover{
+    background-color: rgb(20, 20, 20);
+}
+.x2:hover{
+    background-color: rgb(20, 20, 20);
+}
+.x3:hover{
+    background-color: rgb(20, 20, 20);
+}
+.x4:hover{
+    background-color: rgb(20, 20, 20);
+}
+.x5:hover{
+    background-color: rgb(20, 20, 20);
+}
+.x6:hover{
+    background-color: rgb(20, 20, 20);
+}
+
+.footer{
+    background-color: rgb(14, 14, 14);
+}
+.footer p{
+    padding-bottom: 5px;
+    color: white;
+}
+marquee{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+@media(min-width:645px) and (max-width: 1200px){
+    .nav ul li{
+        margin-left: 25px;
+    }
+    .nav #home{
+        margin-left: 85px;
+    }
+    .s1{
+        width: 40%;
+        margin-left: 5%;
+    }
+    .services{
+        justify-content: center;
+    }
+}
+@media(min-width:770px) and (max-width: 800px){
+    .services h2{
+        margin-bottom: 0px;
+    }
+}
+@media(min-width:645px) and (max-width: 770px){
+    .s1{
+        height: 250px;
+    }
+}
+@media(min-width:500px) and (max-width: 645px){
+    .nav ul li{
+        margin-left: 25px;
+        /* font-size: 16px; */
+    }
+    .nav #home{
+        margin-left: 20px;
+    }
+    #logo{
+        margin-left: 15px;
+    }
+    .a{
+        display: block;
+        width: 100%;
+        margin-right: 15px;
+    }
+    .b{
+        display: none;
+    }
+    .m1, .m2, .main{
+        display: block;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .mb{
+        display: block;
+    }
+    .ma{
+        display: none;
+    }
+    .main p{
+        margin-bottom: 0px;
+    }
+    .m2 p{
+        padding-bottom: 30px;
+    }
+}
+@media(min-width:560px) and (max-width: 645px){
+    .s1{
+        width: 40%;
+        height: 350px;
+    }
+}
+@media(min-width:500px) and (max-width: 560px){
+    .s1{
+        height: 450px;
+        width: 40%;
+    }
+}
+@media(min-width:300px) and (max-width: 650px){
+    
+    .nav{
+        display: inline-block;
+    }
+    .a{
+        display: block;
+        width: 100%;
+        margin-right: 15px;
+    }
+    .b{
+        display: none;
+    }
+    .m1, .m2, .main{
+        display: block;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .mb{
+        display: block;
+    }
+    .ma{
+        display: none;
+    }
+    .main p{
+        margin-bottom: 0px;
+    }
+    .m2 p{
+        padding-bottom: 30px;
+    }
+}
+@media(min-width:200px) and (max-width: 500px){
+    #logo{
+        display: none;
+    }
+    .nav #home{
+        margin-left: 10px;
+    }
+    .nav ul li{
+        margin-left: 15px;
+    }
+    .a{
+        display: block;
+        width: 100%;
+        margin-right: 15px;
+    }
+    .b{
+        display: none;
+    }
+    .m1, .m2, .main{
+        display: block;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .mb{
+        display: block;
+    }
+    .ma{
+        display: none;
+    }
+    .main p{
+        margin-bottom: 0px;
+    }
+    .m2 p{
+        padding-bottom: 30px;
+    }
+    .s1{
+        display: block;
+        width: 90%;
+        height: 100%;
+        margin-left: 5%;
+    }
+    .services{
+        justify-content: center;
+    }
+}
+
+@media(min-width:200px) and (max-width: 300px){
+    #logo{
+        display: none;
+    }
+    .nav #home{
+        margin-left: 0px;
+    }
+    .nav ul li{
+        margin-left: 10px;
+    }
+    .m1, .m2, .main{
+        display: block;
+        width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .mb{
+        display: block;
+    }
+    .ma{
+        display: none;
+    }
+    .main p{
+        margin-bottom: 0px;
+    }
+        .m2 p{
+        padding-bottom: 30px;
+    }
+}

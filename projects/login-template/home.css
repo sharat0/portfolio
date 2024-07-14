@@ -1,0 +1,111 @@
+*{
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+#bg{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    padding-top: 5vh;
+    margin-left: 8%;
+    margin-right: 8%;
+    -ms-flex-align: center;
+    /* border: 2px solid red; */
+}
+#chats, #chatbody, #adds{
+    /* border: 2px solid red; */
+    height: 90vh;
+    border-radius: 22px;
+    overflow-y: scroll;
+    color: #fff;
+}
+#chatbody{
+    width: 55%;
+    background-color: #0f0e0c;
+}
+.chat{
+    height: 60vh;
+}
+#chats{
+    width: 20%;
+    background-color: #47433e;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+#chatbody{
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+#chatbody::-webkit-scrollbar {
+  display: none;
+}
+.discussion, .user, .user-active{
+    display: block;
+    text-align: center;
+    margin: 5% 0;
+    font-size: 18px;
+}
+.user-active{
+    font-size: 22px;
+    font-weight: bold;
+}
+.head{
+    display: block;
+    position: sticky;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    text-decoration: underline;
+    top: 0%;
+    background-color: #0f0e0c;
+    z-index: 100;
+
+}
+.name{
+    color: red;
+    padding-right: 15px;
+}
+.msg{
+    display: block;
+    margin: 0px 10px;
+    padding: 5px 25px;
+    position: relative;
+    width: 70%;
+    padding-bottom: 25px;
+}
+.me{
+    color: green;
+}
+.user-me{
+    
+    margin-left: 20%;
+}
+.chat{
+    top: 55px;
+}
+#adds{
+    width: 20%;
+}
+
+input[type="text"]{
+    display: inline=block;
+    width: 80%;
+    height: 30px;
+}
+input[type="submit"]{
+    width: 18%;
+    height: 30px;
+    margin-right: .5%;
+}
+#msgform{
+    display: block;
+    position: sticky;
+    bottom: 0;
+    z-index: 9999;
+}

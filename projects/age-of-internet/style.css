@@ -1,0 +1,462 @@
+*{
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.footer{
+    background-color: rgb(14, 14, 14);
+}
+.navbar{
+    z-index: -1;
+    display: flex;
+    background: transparent;
+    background-color: #1b191c;
+    width: 100%;
+    margin-bottom: 0px;
+    /* height: 125px; */
+    box-shadow: 2px 5px #000000;
+}
+#logo{
+    margin-left: 100px;
+    margin-top: 0px;
+    box-shadow: 2px 2px 2px white;
+}
+#home{
+    border-bottom: 2px solid #D2D1D2;
+    margin-left: 330px;
+}
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: #cafffb;
+    font-size: 20px;
+    transition:all 0.8s ease;
+}
+.nav ul li a:hover{
+    border-bottom: 2px solid #D2D1D2;
+}
+
+
+.footer p{
+    padding-bottom: 5px;
+    color: white;
+}
+marquee{
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.text{
+    display: flex;
+  background-image: linear-gradient(to right, #1b191c, #1f1d1f);
+  height: 100%;
+  margin-top: 0px;
+  font-size: 20px;
+  color: #f5f5f5;
+  display: block;
+  width: 100%;
+    /* margin-left: 37px; */
+    /* margin-top: 50px; */
+    display: block;
+    /* width: 50%; */
+    height: 100%;
+    /* margin-left: 20%; */
+}
+#age{
+    color: #66fcf1;
+    font-size: 14vh;
+    /* margin-top: 25px; */
+    margin-top: 0px;
+    text-shadow: 3px 3px 3px white;
+    /* display: inline-block; */
+}
+#age h1{
+    margin-top: 0px;
+}
+.left{
+    display: inline-block;
+    width: 50%;
+    padding-left: 15px;
+}
+.right{
+    display: inline-block;
+    width: 45%;
+    margin-left: 20px;
+    transition: all 1s ease;
+}
+.right img{
+    width: 90%;
+    height: 90%;
+    
+}
+#arrow{
+    transform: rotate(90deg);
+}
+.text button,a{
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 25px;
+    /* margin-top: 50px; */
+}
+.text button{
+    transform: rotate(90deg);
+    margin-left: 50px;
+    border: 2px solid white;
+    border-radius: 45%;
+}
+.calculate{
+    width: 100%;
+    background-image: linear-gradient(to top, #cac9c9, #1f1d1f);
+    margin-top: -20px;
+    
+}
+.one{
+    width: 40%;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    /* border: 2px solid red; */
+    padding: 20px;
+    border-radius: 15px;
+}
+.two ,.three{
+    /* border: 2px solid red; */
+    width: 40%;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    /* position: absolute; */
+}
+.head2{
+    font-size:xx-large;
+    text-align: center;
+    color: #a5c9ff;
+    /* margin-left: 30%; */
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.computed{
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.internet .one{
+    background-image: linear-gradient(to right, #3d3c3d, #8f8e8e);
+    /* background-color: #8F8E8E;
+    c3c1c1 */
+    border-image-source: linear-gradient(to right, #3d3c3d, #8f8e8e);
+}
+.yahoo .one{
+    background-image: linear-gradient(to left, #313131, #7c7c7c);
+    border-image-source: linear-gradient(to left, #313131, #7c7c7c);
+}
+.google .one{
+    background-image: linear-gradient(to right, #363636, #777575);
+    border-image-source: linear-gradient(to right, #363636, #777575);  
+}
+.facebook .one{
+    background-image: linear-gradient(to left, #494949, #777575);
+    border-image-source: linear-gradient(to left, #494949, #777575);   
+}
+.youtube .one{
+    background-image: linear-gradient(to right, #474747, #949393);
+    border-image-source: linear-gradient(to right, #474747, #949393);   
+}
+.twitter .one{
+    background-image: linear-gradient(to left, #525050, #9e9e9e);
+    border-image-source: linear-gradient(to left, #525050, #9e9e9e);
+}
+.whatsapp .one{
+    background-image: linear-gradient(to right, #535353, #bdbcbc);
+    border-image-source: linear-gradient(to right, #535353, #bdbcbc);
+}
+.instagram .one{
+    background-image: linear-gradient(to left, #818181, #d4d4d4);
+    border-image-source: linear-gradient(to left, #818181, #d4d4d4);
+}
+#main{
+    animation: bodyanim 2s ease 0s 1 forwards;
+}
+
+@keyframes bodyanim{
+    from{
+        transform: scale(0.01);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+/* .internet{
+    animation: netanim 2s ease 0s 1 forwards;
+} */
+@keyframes netanim{
+    from{
+        margin-left: -500px;
+    }
+    to{
+        margin-left: 30px;
+    }
+}
+/* .yahoo{
+    animation: yahooanim 2s ease 2s 1 forwards;
+} */
+@keyframes yahooanim{
+    from{
+        margin-right: -500px;
+    }
+    to{
+        margin-right: 30px;
+    }
+}
+/* .google{
+    animation: googleanim 2s ease 5s 1 forwards;
+} */
+@keyframes googleanim{
+    from{
+        margin-left: -500px;
+    }
+    to{
+        margin-left: 30px;
+    }
+}
+/* .facebook{
+    animation: fbanim 2s ease 10s 1 forwards;
+} */
+@keyframes fbanim{
+    from{
+        margin-right: -500px;
+    }
+    to{
+        margin-right: 30px;
+    }
+}
+/* .youtube{
+    animation: ytanim 2s ease 12s 1 forwards;
+} */
+@keyframes ytanim{
+    from{
+        margin-left: -500px;
+    }
+    to{
+        margin-left: 30px;
+    }
+}
+/* .twitter{
+    animation: twitteranim 2s ease 15s 1 forwards;
+} */
+@keyframes twitteranim{
+    from{
+        margin-right: -500px;
+    }
+    to{
+        margin-right: 30px;
+    }
+}
+/* .whatsapp{
+    animation: whatsappanim 2s ease 17s 1 forwards;
+} */
+@keyframes whatsappanim{
+    from{
+        margin-left: -500px;
+    }
+    to{
+        margin-left: 30px;
+    }
+}
+/* .instagram{
+    animation: instaanim 2s ease 20s 1 forwards;
+} */
+@keyframes instaanim{
+    from{
+        margin-right: -500px;
+    }
+    to{
+        margin-right: 30px;
+    }
+}
+/* .b{
+     position: absolute;
+    margin-top: -200px;
+    margin-left: 150px;
+     z-index: -1;
+} */
+.two img{
+    /* position: unset; */
+    /* z-index: -1; */
+    width: 400px;
+    height: 300px;
+}
+.three img{
+    /* position: unset; */
+    /* z-index: -1; */
+    width: 400px;
+    height: 300px;
+}
+/* .b img{
+    width: 400px;
+    height: 300px;
+} */
+.c{
+    /* margin-left: 317px;
+    margin-top: -190px; */
+    position: absolute;
+    top: 223px;
+    left: 327px;
+    z-index: 100;
+    height: 200px;
+    width: 200px;
+}
+.three{
+    display: none;
+}
+/* Making the site responsive */
+@media(min-width:645px) and (max-width: 1200px){
+    .nav ul li{
+        margin-left: 25px;
+    }
+    .nav #home{
+        margin-left: 85px;
+    }
+    /* #logo{
+        margin-left: 15px;
+    } */
+    .two{
+        justify-content: center;
+    }
+    .two img{
+        width: 250px;
+        height: 200px;
+    }
+}
+@media(min-width:500px) and (max-width: 645px){
+    .nav ul li{
+        margin-left: 25px;
+        /* font-size: 16px; */
+    }
+    .nav #home{
+        margin-left: 20px;
+    }
+    #logo{
+        margin-left: 15px;
+    }
+    .two{
+        justify-content: center;
+    }
+    .two img{
+        width: 190px;
+        height: 200px;
+    }
+}
+@media(min-width:300px) and (max-width: 650px){
+    .one{
+        display: block;
+        width: 75%;
+    }
+    .two{
+        display: none;
+    }
+    .three{
+        display: inline-block;
+    }
+    .two img{
+        width: 190px;
+        height: 200px;
+    }
+    .nav{
+        display: inline-block;
+    }
+    .head2{
+        font-size: 30px
+    }
+    #age{
+        display: block;
+        width: 100%;
+    }
+
+}
+@media(min-width:200px) and (max-width: 500px){
+    #logo{
+        display: none;
+    }
+    .nav #home{
+        margin-left: 10px;
+    }
+    .nav ul li{
+        margin-left: 15px;
+    }
+    .three{
+        display: inline-block;
+    }
+    .three img{
+        width: 275px;
+        height: 210px;
+    }
+    .head2{
+        font-size: 20px
+    }
+    .one{
+        display: block;
+        width: 75%;
+    }
+    .two{
+        display: none;
+    }
+    .three{
+        display: inline-block;
+    }
+    #age{
+        font-size: 40px;
+    }
+    .left{
+        display: block;
+        width: 100%;
+        padding-right: 15px;
+    }
+    .right{
+        display: none;
+    }
+}
+
+@media(min-width:200px) and (max-width: 300px){
+    #logo{
+        display: none;
+    }
+    .nav #home{
+        margin-left: 0px;
+    }
+    .nav ul li{
+        margin-left: 10px;
+    }
+    .three{
+        display: inline-block;
+    }
+    .three img{
+        width: 150px;
+        height: 180px;
+    }
+    .head2{
+        font-size: 20px
+    }
+    .one{
+        display: block;
+        width: 75%;
+    }
+    .two{
+        display: none;
+    }
+    .three{
+        display: inline-block;
+    }
+    #age{
+        font-size: 40px;
+    }
+}
