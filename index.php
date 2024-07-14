@@ -10,23 +10,25 @@ session_start();
     <link rel="apple-touch-icon" sizes="180x180" href="./assets/imgs">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/imgs/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/imgs/favicon-16x16.png">
-	<meta name="author" content="Apoorv Sharat">
-	<meta name="keywords" content="Portfolio, portfolio design, developer portfolio, hello world, HTML, CSS, JavaScript, Apoorv, sharat, Sharat, Apoorv Sharat, portfolio, developer, front end, back end, full stack">
-	<meta property="og:type" content="website" />
-	<meta property="og:site_name" content="Apoorv Sharat | Portfolio | Full Stack Developer" />
-	<meta property="og:title" content="Sharat - Portfolio" />
-	<meta property="og:image:width" content="300">
-	<meta property="og:image:height" content="300">
-	<meta property="og:image" content="favicon.ico" />
-	<meta property="og:url" content="https://sharat.tech/" />
-	<meta property="og:description" content="Hey there! Welcome to my portfolio. It contains a wide variety of projects I have worked on and some of the github repositories too.">
-	<meta content="Hey there! Welcome to my portfolio. It contains a wide variety of projects I have worked on and some of the github repositories too." name="description" />
-	<meta name="copyright" content="https://sharat.tech/">
-	<meta name="robots" content="index, follow">
-	<meta name="rating" content="general">
+    <meta name="author" content="Apoorv Sharat">
+    <meta name="keywords" content="Portfolio, portfolio design, developer portfolio, hello world, HTML, CSS, JavaScript, Apoorv, sharat, Sharat, Apoorv Sharat, portfolio, developer, front end, back end, full stack">
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Apoorv Sharat | Portfolio | Full Stack Developer" />
+    <meta property="og:title" content="Sharat - Portfolio" />
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta property="og:image" content="favicon.ico" />
+    <meta property="og:url" content="https://sharat.tech/" />
+    <meta property="og:description" content="Hey there! Welcome to my portfolio. It contains a wide variety of projects I have worked on and some of the github repositories too.">
+    <meta content="Hey there! Welcome to my portfolio. It contains a wide variety of projects I have worked on and some of the github repositories too." name="description" />
+    <meta name="copyright" content="https://sharat.tech/">
+    <meta name="robots" content="index, follow">
+    <meta name="rating" content="general">
     <title>Apoorv Sharat | Full Stack Developer</title>
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     <!-- Bootstrap + Meyawo main styles -->
     <link rel="stylesheet" href="assets/css/meyawo.css">
 
@@ -54,12 +56,12 @@ session_start();
         }
     </style>
     <?php
-        if (isset($_SESSION['error'])) {
-            $error=$_SESSION['error'];
-            session_unset();
-            session_destroy();
-            echo '<script>alert("' . $error . '")</script>';
-        }
+    if (isset($_SESSION['error'])) {
+        $error = $_SESSION['error'];
+        session_unset();
+        session_destroy();
+        echo '<script>alert("' . $error . '")</script>';
+    }
     ?>
 </head>
 
@@ -124,13 +126,13 @@ session_start();
                     <p class="section-subtitle">Who Am I ?</p>
                     <h2 class="section-title mb-3">About Me</h2>
                     <p>
-                        I'm an energetic Full Stack Web Developer who specializes in the LAMP stack. 
-                        I have a good eye for design and a solid background in cybersecurity. 
+                        I'm an energetic Full Stack Web Developer who specializes in the LAMP stack.
+                        I have a good eye for design and a solid background in cybersecurity.
                         I started my tech journey in 2016. Since then, I've headed up groundbreaking projects just like my most recent starup FestiveLearn.
-                        <br>In my work, I blend attractive designs with reliable functionality. My portfolio shows a range of projects, 
-                        from cutting-edge e-commerce solutions to educational platforms. 
-                        <br><br>I'm always looking into new technologies and 
-                        frameworks to stay on top of tech trends and improve my skills. If you want to add a developer who's excited about their 
+                        <br>In my work, I blend attractive designs with reliable functionality. My portfolio shows a range of projects,
+                        from cutting-edge e-commerce solutions to educational platforms.
+                        <br><br>I'm always looking into new technologies and
+                        frameworks to stay on top of tech trends and improve my skills. If you want to add a developer who's excited about their
                         work to your team, I'd love to chat!
 
                     </p>
@@ -400,6 +402,7 @@ session_start();
                     <div class="form-group col-sm-12">
                         <textarea id="comment" rows="6" name="message" class="form-control" placeholder="Write Something"></textarea>
                     </div>
+                    <!-- <div class="g-recaptcha" data-sitekey="6LegAxAqAAAAAIrco5S2-_aAeEvD4j-JIxnw_XcB"></div> -->
                     <div class="form-group col-sm-12 mt-3">
                         <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
                     </div>
