@@ -30,7 +30,7 @@ session_start();
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 
     <!-- Bootstrap + Meyawo main styles -->
-    <link rel="stylesheet" href="assets/css/meyawo.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
 
