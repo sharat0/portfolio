@@ -11910,7 +11910,7 @@ pre .code {
     position: absolute;
     top: calc(100% + 1px);
     left: 0;
-    background: #fff;
+    background: #0f172a;
     border-radius: 0 0 0 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
