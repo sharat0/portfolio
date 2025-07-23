@@ -11910,7 +11910,7 @@ pre .code {
     position: absolute;
     top: calc(100% + 1px);
     left: 0;
-    background: #fff;
+    background: #0f172a;
     border-radius: 0 0 0 0;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -12251,4 +12251,32 @@ pre .code {
 
 .section-lg {
   padding: 100px 0 !important;
+}
+
+@media (max-width: 767.98px) {
+  img.about-img {
+    display: block;
+    width: 70vw;
+    max-width: 220px;
+    margin: 0 auto 10px auto;
+    height: auto;
+  }
+  .header{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    height: fit-content;
+    padding-top: 2rem;
+  }
+  .header-content{
+    padding-left: 0 !important;
+  }
+  .header-title{
+    font-size: 1.5rem;
+  }
+  .header-subtitle{
+    font-size: 1rem;
+  }
 }
