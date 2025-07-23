@@ -98,237 +98,144 @@ session_start();
 
     <!-- page header -->
     <header id="home" class="header justify-items-space-around">
-        <!-- <div class="overlay"></div> -->
-
         <div class="header-content">
             <div id="particles-js"></div>
             <h1 class="header-title">
-                <span class="up">HI!</span>
-                <span class="down">I am Apoorv Sharat</span>
+                <span class="up">Hi! I'm Apoorv Sharat</span>
             </h1>
-            <p class="header-subtitle">FULL-STACK WEB DEVELOPER</p>
-
-            <a class="btn btn-primary" href="#portfolio">Visit My Works</a>
+            <p class="header-subtitle">Full-Stack Web Developer & Digital Creator</p>
+            <p class="header-description">Crafting high-performance websites, sleek user experiences, and growth-driven solutions for modern businesses.</p>
+            <a class="btn btn-primary" href="#contact">Let's Work Together</a>
         </div>
         <img src="assets/imgs/Astronout_Apoorv_Sharat.png" class="about-img" alt="Apoorv Sharat personal portfolio">
     </header><!-- end of page header -->
 
     <!-- about section -->
     <section class="section pt-0" id="about">
-        <!-- container -->
         <div class="container text-center">
-            <!-- about wrapper -->
             <div class="about">
                 <div class="about-img-holder">
                     <img src="assets/imgs/Apoorv.png" class="about-img" alt="Apoorv Sharat personal portfolio">
                 </div>
                 <div class="about-caption">
-                    <p class="section-subtitle">Who Am I ?</p>
-                    <h2 class="section-title mb-3">About Me</h2>
+                    <p class="section-subtitle">Tech Entrepreneur | Full-Stack Web Developer | Brand Strategist</p>
+                    <h2 class="section-title mb-3">Meet Apoorv Sharat</h2>
                     <p>
-                        I'm an energetic Full Stack Web Developer who specializes in the LAMP stack.
-                        I have a good eye for design and a solid background in cybersecurity.
-                        I started my tech journey in 2016. Since then, I've headed up groundbreaking projects just like my most recent starup FestiveLearn.
-                        <br>In my work, I blend attractive designs with reliable functionality. My portfolio shows a range of projects,
-                        from cutting-edge e-commerce solutions to educational platforms.
-                        <br><br>I'm always looking into new technologies and
-                        frameworks to stay on top of tech trends and improve my skills. If you want to add a developer who's excited about their
-                        work to your team, I'd love to chat!
-
+                        With 6+ years in the digital space, I’ve helped startups and brands build standout web platforms, apps, and marketing systems that don’t just look good — they drive results. Whether it’s a polished landing page, an end-to-end app, or a growth funnel, I bring a deep blend of technology, design, and strategy to every project.<br><br>
+                        <strong>From founding AssignIQ (AI project manager) to leading Classhed (student-tech ecosystem), my journey has been driven by one goal: Build digital experiences that create real impact.</strong>
                     </p>
-                    <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
                 </div>
-            </div><!-- end of about wrapper -->
-        </div><!-- end of container -->
-    </section> <!-- end of about section -->
+            </div>
+        </div>
+    </section>
 
     <!-- service section -->
     <section class="section" id="service">
         <div class="container text-center">
-            <p class="section-subtitle">What I Do ?</p>
-            <h6 class="section-title mb-6">Service</h6>
-            <!-- row -->
+            <p class="section-subtitle">What I Offer</p>
+            <h6 class="section-title mb-6">Services</h6>
             <div class="row">
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/pencil-case.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
-                            <h6 class="title">UI / UX Design</h6>
-                            <p class="subtitle">Crafting intuitive and engaging user interfaces with a focus on seamless user experiences.</p>
+                            <img src="assets/imgs/responsive.svg" alt="Web Development" class="icon">
+                            <h6 class="title">Web Development</h6>
+                            <p class="subtitle">Responsive, fast, and scalable websites and apps built using React, PHP, Laravel, Node.js, and Firebase.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/responsive.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
-                            <h6 class="title">Responsive Websites</h6>
-                            <p class="subtitle">Building adaptable and mobile-friendly websites that ensure optimal viewing across all devices.</p>
+                            <img src="assets/imgs/pencil-case.svg" alt="Graphic & UI/UX Design" class="icon">
+                            <h6 class="title">Graphic & UI/UX Design</h6>
+                            <p class="subtitle">Professional, brand-aligned visuals, logos, banners, social media creatives, and full UI kits.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/toolbox.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
-                            <h6 class="title">Cyber Security</h6>
-                            <p class="subtitle">Implementing robust security measures to protect web applications from vulnerabilities and threats.</p>
+                            <img src="assets/imgs/analytics.svg" alt="Digital Marketing & SEO" class="icon">
+                            <h6 class="title">Digital Marketing & SEO</h6>
+                            <p class="subtitle">Result-focused SEO strategies, ad campaigns, and digital funnels to help you grow fast & smart.</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-3">
                     <div class="service-card">
                         <div class="body">
-                            <img src="assets/imgs/analytics.svg" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page" class="icon">
-                            <h6 class="title">SEO</h6>
-                            <p class="subtitle">Enhancing website visibility and search engine rankings through strategic optimization techniques.</p>
+                            <img src="assets/imgs/toolbox.svg" alt="Android App Development" class="icon">
+                            <h6 class="title">Android App Development</h6>
+                            <p class="subtitle">Custom Android apps with clean architecture, modern UI, and seamless integration.</p>
                         </div>
                     </div>
                 </div>
-            </div><!-- end of row -->
+            </div>
         </div>
-    </section><!-- end of service section -->
+    </section>
 
     <!-- portfolio section -->
     <section class="section" id="portfolio">
         <div class="container text-center">
-            <p class="section-subtitle">What I Did ?</p>
-            <h6 class="section-title mb-6">Portfolio</h6>
-            <!-- row -->
+            <p class="section-subtitle">Featured Projects</p>
+            <h6 class="section-title mb-6">Coming Soon</h6>
             <div class="row">
                 <div class="col-md-4 mb-3">
-                    <a href="https://festivelearn.com" class="portfolio-card">
-                        <img src="assets/imgs/FestiveLearn.png" class="portfolio-card-img" alt="FestiveLearn">
+                    <div class="portfolio-card">
+                        <a href="https://assigniq.tech">
+                        <img src="assets/imgs/assigniq.png" class="portfolio-card-img" alt="AssignIQ">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>FestiveLearn</h5>
-                                    <p class="font-weight-normal">Category: Website</p>
+                                <h4>AssignIQ</h4>
+                                <p class="font-weight-normal">AI-powered task manager for startups</p>
                             </span>
                         </span>
-                    </a>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="https://www.tangytwist.live" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/tangyTwist.png" class="img-responsive rounded" alt="TangyTwist">
+                    <div class="portfolio-card">
+                        <a href="#">
+                        <img src="assets/imgs/classhed.png" class="portfolio-card-img" alt="Classhed">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>TangyTwist</h5>
-                                    <p class="font-weight-normal">Category: Website</p>
+                                <h4>Classhed</h4>
+                                <p class="font-weight-normal">Learning & hackathon ecosystem for students</p>
                             </span>
                         </span>
-                    </a>
-                </div>
-
-                <div class="col-md-4 mb-3">
-                    <a href="./projects/comming-soon/" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/commingsoon.png" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Comming Soon Template</h5>
-                                    <p class="font-weight-normal">Category: Web Templates</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-
-                <div class="col-md-4 mb-3">
-                    <a href="https://mokshfenster.com" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/MokshFenster.png" class="img-responsive rounded" alt="Moksh Fenster">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Moksh Fenster</h5>
-                                    <p class="font-weight-normal">Category: Website</p>
-                            </span>
-                        </span>
-                    </a>
+                    </div>
                 </div>
                 <div class="col-md-4 mb-3">
-                    <a href="./projects/glitch/" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/glitch.png" class="img-responsive rounded" alt="Glitch">
+                    <div class="portfolio-card">
+                        <a href="#">
+                        <img src="assets/imgs/oh.png" class="portfolio-card-img" alt="Object Heaven">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Glitch</h5>
-                                    <p class="font-weight-normal">Category: Website</p>
+                                <h4>Object Heaven</h4>
+                                <p class="font-weight-normal">3D product design marketplace</p>
                             </span>
                         </span>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-
                 <div class="col-md-4 mb-3">
-                    <a href="https://github.com/sharat0/admission-management-system" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/admission.png" class="img-responsive rounded" alt="Admission Management System">
+                    <div class="portfolio-card">
+                        <a href="#">
+                        <img src="assets/imgs/commingsoon.png" class="portfolio-card-img" alt="Client Brands">
                         <span class="portfolio-card-overlay">
                             <span class="portfolio-card-caption">
-                                <h4>Admission Management System</h5>
-                                    <p class="font-weight-normal">Category: ASP.net Web-App</p>
+                                <h4>...and more</h4>
+                                <p class="font-weight-normal">E-commerce, education, and local businesses</p>
                             </span>
                         </span>
-                    </a>
+                        </a>
+                    </div>
                 </div>
-
-                <div class="col-md-4 mb-3">
-                    <a href="https://github.com/sharat0/Logistics-Maagemet-System" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/logistics.png" class="img-responsive rounded" alt="Logistics Management System">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Logistics Management System</h5>
-                                    <p class="font-weight-normal">Category: Windows Application</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-
-                <div class="col-md-4 mb-3">
-                    <a href="./projects/LivingSpace/" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/livingspaces.png" class="img-responsive rounded" alt="Pg Room Website Template">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Living Spaces</h5>
-                                    <p class="font-weight-normal">Category: Web Templates</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-
-                <div class="col-md-4 mb-3">
-                    <a href="./projects/age-of-internet/" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/age_of_internet.png" class="img-responsive rounded" alt="Age of Internet">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Age of Internet</h5>
-                                    <p class="font-weight-normal">Category: Web Templates</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-
-                <div class="col-md-4 mb-3">
-                    <a href="./projects/login-template/" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/login.png" class="img-responsive rounded" alt="Login Page Template">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Login Template</h5>
-                                    <p class="font-weight-normal">Category: Web Templates</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-
-                <div class="col-md-4 mb-3">
-                    <a href="./projects/comming-soon/" class="portfolio-card">
-                        <img class="portfolio-card-img" src="assets/imgs/comming_soon.png" class="img-responsive rounded" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
-                        <span class="portfolio-card-overlay">
-                            <span class="portfolio-card-caption">
-                                <h4>Comming Soon Template</h5>
-                                    <p class="font-weight-normal">Category: Web Templates</p>
-                            </span>
-                        </span>
-                    </a>
-                </div>
-
-            </div><!-- end of row -->
-        </div><!-- end of container -->
-    </section> <!-- end of portfolio section -->
+            </div>
+            <a class="btn btn-outline-primary mt-4" href="./portfolio">📂 Explore Portfolio</a>
+        </div>
+    </section>
 
     <!-- section -->
     <section class="section-sm bg-primary">
@@ -350,82 +257,79 @@ session_start();
     <!-- testimonial section -->
     <section class="section" id="testmonial">
         <div class="container text-center">
-            <p class="section-subtitle">What Think Client About Me ?</p>
-            <h6 class="section-title mb-6">Testmonial</h6>
-
-            <!-- row -->
+            <p class="section-subtitle">What Clients Say</p>
+            <h6 class="section-title mb-6">Testimonials</h6>
             <div class="row">
                 <div class="col-md-6">
                     <div class="testimonial-card">
                         <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/avatar2.jpg" class="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                            <img src="assets/imgs/avatar2.jpg" class="testimonial-card-img" alt="Client Testimonial">
                         </div>
                         <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis
-                                adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
+                            <p class="testimonial-card-subtitle">“Apoorv's work on our eCommerce site was exceptional — fast, responsive, and brand-perfect.”</p>
+                            <h6 class="testimonial-card-title">[Client Name], CEO, [Brand]</h6>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="testimonial-card">
                         <div class="testimonial-card-img-holder">
-                            <img src="assets/imgs/avatar3.jpg" class="testimonial-card-img" alt="Download free bootstrap 4 landing page, free boootstrap 4 templates, Download free bootstrap 4.1 landing page, free boootstrap 4.1.1 templates, meyawo Landing page">
+                            <img src="assets/imgs/avatar3.jpg" class="testimonial-card-img" alt="Client Testimonial">
                         </div>
                         <div class="testimonial-card-body">
-                            <p class="testimonial-card-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                elit. Eaque doloribus autem aperiam earum nostrum omnis blanditiis corporis perspiciatis
-                                adipisci nihil.</p>
-                            <h6 class="testimonial-card-title">Emily Reb</h6>
+                            <p class="testimonial-card-subtitle">“From zero to launch in 3 weeks. Highly recommended for any startup founder.”</p>
+                            <h6 class="testimonial-card-title">[Client Name], Startup Founder</h6>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> <!-- end of container -->
-    </section> <!-- end of testimonial section -->
+        </div>
+    </section>
 
     <!-- contact section -->
     <section class="section" id="contact">
         <div class="container text-center">
-            <p class="section-subtitle">How can you communicate?</p>
-            <h6 class="section-title mb-5">Contact Me</h6>
-            <!-- contact form -->
+            <p class="section-subtitle">Ready to launch something powerful?</p>
+            <h6 class="section-title mb-5">Let's Connect</h6>
             <form action="./forms/sendMail.php" class="contact-form col-md-10 col-lg-8 m-auto" method="post">
                 <div class="form-row">
                     <div class="form-group col-sm-6">
                         <input type="text" size="50" class="form-control" name="name" placeholder="Your Name" required>
                     </div>
                     <div class="form-group col-sm-6">
-                        <input type="email" class="form-control" name="email" placeholder="Enter Email" requried>
+                        <input type="email" class="form-control" name="email" placeholder="Enter Email" required>
                     </div>
                     <div class="form-group col-sm-12">
                         <textarea id="comment" rows="6" name="message" class="form-control" placeholder="Write Something"></textarea>
                     </div>
-                    <!-- <div class="g-recaptcha" data-sitekey="6LegAxAqAAAAAIrco5S2-_aAeEvD4j-JIxnw_XcB"></div> -->
                     <div class="form-group col-sm-12 mt-3">
-                        <input type="submit" value="Send Message" class="btn btn-outline-primary rounded">
+                        <input type="submit" value="Contact Me Now" class="btn btn-outline-primary rounded">
                     </div>
                 </div>
-            </form><!-- end of contact form -->
-        </div><!-- end of container -->
-    </section><!-- end of contact section -->
+            </form>
+            <div class="contact-details mt-4">
+                <p><strong>Email:</strong> <a href="mailto:hello@sharat.tech">hello@sharat.tech</a></p>
+                <p><strong>Location:</strong> Bhagalpur, India (Available for global projects)</p>
+                <div class="social-links text-center">
+                    <a href="https://www.linkedin.com/in/apoorv-sharat/" class="link"><i class="ti-linkedin"></i></a>
+                    <a href="https://www.instagram.com/apoorv.sharat/" class="link"><i class="ti-instagram"></i></a>
+                    <a href="https://github.com/sharat0" class="link"><i class="ti-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- footer -->
     <div class="container">
         <footer class="footer">
-            <p class="mb-0">Copyright
-                <script>
-                    document.write(new Date().getFullYear())
-                </script> &copy; <a href="https://www.sharat.tech">Apoorv Sharat</a>
+            <p class="mb-0">Apoorv Sharat – Full-Stack Developer & Digital Creator<br>
+                Based in India. Trusted by founders, creators, and marketers globally.
             </p>
             <div class="social-links text-right m-auto ml-sm-auto">
                 <a href="https://www.linkedin.com/in/apoorv-sharat/" class="link"><i class="ti-linkedin"></i></a>
                 <a href="https://github.com/sharat0" class="link"><i class="ti-github"></i></a>
-                <a href="mailto:apoorv.sharat0@gmail.com" class="link"><i class="ti-google"></i></a>
+                <a href="mailto:hello@sharat.tech" class="link"><i class="ti-google"></i></a>
                 <a href="https://www.instagram.com/apoorv.sharat/" class="link"><i class="ti-instagram"></i></a>
-                <a href="https://www.facebook.com/apoorv.sharat.7712" class="link"><i class="ti-facebook"></i></a>
-                <a href="https://x.com/apoorv_sharat" class="link"><i class="ti-twitter-alt"></i></a>
             </div>
         </footer>
         <div class="neon-circle" id="neon-circle"></div>
